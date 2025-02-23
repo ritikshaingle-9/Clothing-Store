@@ -1,15 +1,14 @@
-import firstdress from "./../../assets/HomeImg/dress-1.jpg"
 
 export default function Shopcard({Cardimg,Dressname,Fabric,Discountamount,Actualamount,OFF}) {
   return (
     <div>
-        <div className="bg-white w-[350px] h-[400px] m-20 flex flex-col">
-         <div className="h-[200px] w-full"><img src={firstdress} className="h-[350px] w-full object-cover"/></div>
-         <p className="text-xl font-bold bg-white mt-37 pl-2 pt-2">SKIRT AND TOP</p>
-         <p className="text-sm pl-2 text-[#7a7a52]">Pure Cotton Plane Set</p>
-         <h2 className="text-xl font-bold pl-2">Rs.1420
-             <del className="text-xs">Rs.2900</del>
-             <h5 className="text-amber-500">(50% OFF)</h5>
+        <div className="bg-[#a4ac86] w-[270px] h-[430px] mx-2 mt-20 flex flex-col">
+         <div className="h-[200px] w-full"><img src={Cardimg} className="h-[300px] w-full object-cover"/></div>
+         <p className="text-xl font-bold bg-[#a4ac86] mt-25 pl-3 pt-2">{Dressname}</p>
+         <p className="text-sm pl-3 text-[#5c5c3d]">{Fabric}</p>
+         <h2 className="text-xl font-bold pl-3">Rs.{Discountamount}
+             <del className="text-xs ml-2">{Actualamount}</del>
+             <h5 className="text-amber-600 text-sm">({OFF}) OFF</h5>
         </h2>
         </div>
     </div>
