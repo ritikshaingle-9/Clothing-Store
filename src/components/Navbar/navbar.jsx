@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
         
-        <nav className="flex bg-[#a4ac86] h-20  w-full rounded ">
+        <nav className="flex bg-[#8da375] h-20  w-full rounded ">
         <div className="container mx-auto flex items-center justify-normal">
            
             <div className="ml-16 text-3xl">Logo</div>

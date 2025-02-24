@@ -9,6 +9,7 @@ import thirddress from "./../../assets/HomeImg/dress-3.png"
 import fourthdress from "./../../assets/HomeImg/dress-4.png"
 
 import section3bg from "./../../assets/HomeImg/bg-section3.png"
+import Footer from "../../components/Footer/footer"
 
 export default function Home() {
   return (
@@ -40,7 +41,7 @@ export default function Home() {
         <Shopcard Cardimg={firstdress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" />
         </div>
 
-        <div className="bg-[#b8b894] w-full h-130 mt-20 ">
+        <div className="bg-[#8da375] w-full h-130 mt-20 ">
             <div className="flex justify-around">
 
             <img src={section3bg} className="h-120 w-120 mt-6"/> 
@@ -64,6 +65,7 @@ export default function Home() {
         </div>
         
     </div>
+    <Footer/>
     </div>
   )
 }
