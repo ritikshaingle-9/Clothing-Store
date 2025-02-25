@@ -30,18 +30,18 @@ export default function Home() {
  
         <h1 className="text-5xl text-center font-medium text-black mt-[70px]">Our Top Selling</h1>
         <div className="flex flex-wrap justify-evenly">
-        <Shopcard Cardimg={firstdress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" />
+        <div className="mx-2 mt-20"><Shopcard Cardimg={firstdress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" /></div>
 
-        <Shopcard Cardimg={seconddress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" />
+        <div className="mx-2 mt-20"><Shopcard Cardimg={seconddress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" /></div>
 
-        <Shopcard Cardimg={thirddress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" />
+        <div className="mx-2 mt-20"><Shopcard Cardimg={thirddress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" /></div>
 
-        <Shopcard Cardimg={fourthdress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" />
+        <div className="mx-2 mt-20"><Shopcard Cardimg={fourthdress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" /></div>
 
-        <Shopcard Cardimg={firstdress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" />
+        <div className="mx-2 mt-20"><Shopcard Cardimg={firstdress} Dressname="Skirt And Top" Fabric="Plane shiffron top and skirt" Discountamount="1420" Actualamount="2000" OFF="50%" /></div>
         </div>
 
-        <div className=" bg-[#8da375] bg-opacity-50 w-full h-130 mt-20 ">
+        <div className=" bg-[#EDF4F2] bg-opacity-50 w-full h-130 mt-20 ">
             <div className="flex justify-around">
 
             <img src={section3bg} className="h-120 w-120 mt-6"/> 
