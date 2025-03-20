@@ -1,8 +1,10 @@
+import Ordercard from "../../views/Ordercard/Ordercard";
+import Button, { Buttonsmall } from "../Button/button";
 
 export default function Shopcard({Cardimg,Dressname,Fabric,Discountamount,Actualamount,OFF}) {
   return (
     <div>
-        <div className="bg-[#EDF4F2] w-[270px] h-[430px]  flex flex-col">
+        <div className="bg-[#EDF4F2] w-[270px] h-[460px]  flex flex-col">
          <div className="h-[200px] w-full"><img src={Cardimg} className="h-[300px] w-full object-cover"/></div>
          <p className="text-xl font-bold bg-[#EDF4F2] text-black mt-25 pl-3 pt-2">{Dressname}</p>
          <p className="text-sm pl-3 text-[#5c5c3d]">{Fabric}</p>
@@ -10,6 +12,7 @@ export default function Shopcard({Cardimg,Dressname,Fabric,Discountamount,Actual
              <del className="text-xs ml-2">{Actualamount}</del>
              <h5 className="text-amber-600 text-sm">({OFF}) OFF</h5>
         </h2>
+       <Buttonsmall buttonsmalltext="Order" onClick={<Ordercard idno="card1"/>}/>
         </div>
     </div>
   )

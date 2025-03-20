@@ -5,7 +5,7 @@ import {Tag as IconTag} from "lucide-react"
 import Button from "./../Button/button";
 
 
-export default function CardDetail({Dressimg,Brandname,Dressname,Discountprice,Actualprice,Off,Ratestar,Ratinguser,Reviewuser}){ 
+export default function CardDetail({idno,Dressimg,Brandname,Dressname,Discountprice,Actualprice,Off,Ratestar,Ratinguser,Reviewuser}){ 
   return (
     <div>
         <div className="flex ">

@@ -10,6 +10,7 @@ import fourthdress from "./../../assets/HomeImg/dress-4.png"
 
 import section3bg from "./../../assets/HomeImg/bg-section3.png"
 import Footer from "../../components/Footer/footer"
+import CardDetail from "../../components/CardDetail/carddetail"
 
 export default function Home() {
   return (
